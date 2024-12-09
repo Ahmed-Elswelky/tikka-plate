@@ -51,9 +51,14 @@ body::before {
 
 h2 {
   text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: var(--gold-color);
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  animation-name: moving;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 p {
   text-align: center;
@@ -138,4 +143,18 @@ i {
     flex-direction: column-reverse;
   }
 
+}
+@keyframes moving {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    /* transform: translateX(10px); */
+    transform: translateY(10px);
+  }
+  100% {
+    /* transform: translateX(0); */
+    transform: translateY(0px);
+
+  }
 }
