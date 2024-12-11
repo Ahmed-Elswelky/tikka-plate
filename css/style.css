@@ -31,20 +31,14 @@ body::before {
   --light-green: #025318c2
 }
 .logo-sec {
-  /* background-image: url(../images/2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-  width: 100%;
-  background-position: center; */
-  height: 100px;
+  height: 120px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 20px 50px;
 }
 .logo-sec img {
-  width: 80px;
+  width: 120px;
   object-fit: cover;
 
 }
